@@ -1,5 +1,72 @@
+@font-face {
+    font-family:"";
+    src: url("");
+}
+
 *{
-    margin : 0;
-    padding : 0;
-    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+#logo{
+    width: 80%;
+  aspect-ratio: 1;
+  border: var(--color1) solix 2px;
+  border-radius: 50%;
+  background-size: contain;
+  background-position-y: center;
+  background-position-x: center;
+}
+#text{
+    width: 60%;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: black 2px 2px 5px 0px;
+    margin: 5%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    width: 80%;
+    margin-right: 50%;
+}
+
+#secondtext{
+    width: 60%;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: black 2px 2px 5px 0px;
+    margin: 2%;
+}
+
+nav {
+  
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    justify-content: space-evenly;
+   align-items: center;
+ 
+     width: 19vw;
+     height: 100vh;
+ background-color: black;
+ position:fixed;;
+ z-index: 5;
+}
+
+#titre{ 
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    width: 80%;
+    margin-right: 10%;
+
+}
+
+main{
+    display: flex;
+    flex-direction: center;
+
 }
